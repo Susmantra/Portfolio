@@ -1,0 +1,112 @@
+.topNav {
+  background: black;
+}
+
+.hero {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 203, 18, 0) 2.56%,
+    rgba(255, 203, 18, 0.00265541) 14.42%,
+    rgba(255, 203, 18, 0.00404634) 14.43%,
+    rgba(255, 203, 18, 0.00460271) 28.26%,
+    rgba(251, 200, 19, 0.0963999) 36.61%,
+    rgba(247, 197, 19, 0.197917) 45.06%,
+    rgba(237, 189, 21, 0.447622) 67.79%,
+    rgba(228, 183, 23, 0.659367) 85.08%,
+    #d7ad19 97.44%
+  );
+  min-height: 60vh;
+}
+
+.hero img {
+  max-width: 400px;
+}
+
+.title {
+  font-style: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2rem;
+  letter-spacing: 0.3rem;
+
+  margin-bottom: 2rem;
+}
+
+.title span {
+  border-bottom: 5px solid;
+  padding: 0.5 2rem;
+}
+
+/* icons */
+.icons {
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.icons div {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icons i {
+  font-size: 5rem;
+}
+
+.fa-figma {
+  background: linear-gradient (180deg, red purple blue greenyellow);
+}
+
+.skills {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 203, 18, 0) 2.56%,
+    rgba(255, 203, 18, 0.00265541) 14.42%,
+    rgba(255, 203, 18, 0.00404634) 14.43%,
+    rgba(255, 203, 18, 0.00460271) 28.26%,
+    rgba(251, 200, 19, 0.0963999) 36.61%,
+    rgba(247, 197, 19, 0.197917) 45.06%,
+    rgba(237, 189, 21, 0.447622) 67.79%,
+    rgba(228, 183, 23, 0.659367) 85.08%,
+    #d7ad19 97.44%
+  );
+}
+.projects {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 203, 18, 0) 2.56%,
+    rgba(255, 203, 18, 0.00265541) 14.42%,
+    rgba(255, 203, 18, 0.00404634) 14.43%,
+    rgba(255, 203, 18, 0.00460271) 28.26%,
+    rgba(251, 200, 19, 0.0963999) 36.61%,
+    rgba(247, 197, 19, 0.197917) 45.06%,
+    rgba(237, 189, 21, 0.447622) 67.79%,
+    rgba(228, 183, 23, 0.659367) 85.08%,
+    #d7ad19 97.44%
+  );
+}
+
+.contact {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 203, 18, 0) 2.56%,
+    rgba(255, 203, 18, 0.00265541) 14.42%,
+    rgba(255, 203, 18, 0.00404634) 14.43%,
+    rgba(255, 203, 18, 0.00460271) 28.26%,
+    rgba(251, 200, 19, 0.0963999) 36.61%,
+    rgba(247, 197, 19, 0.197917) 45.06%,
+    rgba(237, 189, 21, 0.447622) 67.79%,
+    rgba(228, 183, 23, 0.659367) 85.08%,
+    #d7ad19 97.44%
+  );
+}
+
+#goup {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  font-size: 4rem;
+}
